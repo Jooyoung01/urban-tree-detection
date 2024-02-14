@@ -1,3 +1,13 @@
+# Additional README
+You can use [Google colab](https://colab.google/) for this [modified](https://github.com/Jooyoung01/urban-tree-detection.git) urban-tree-detection Github repository.</br>
+Here is a new [Tutorial](https://colab.research.google.com/drive/14W9x6TQ8TXuRy3hzk9RHgipwLCAv2PQ_?usp=sharing) for Google colab, I have created.
+
+### DATASET ###
+Dataset Link : [https://github.com/jonathanventura/urban-tree-detection-data/](https://github.com/jonathanventura/urban-tree-detection-data/)
+### CITATION ###
+J. Ventura, C. Pawlak, M. Honsberger, C. Gonsalves, J. Rice, N.L.R. Love, S. Han, V. Nguyen, K. Sugano, J. Doremus, G.A. Fricker, J. Yost, and M. Ritter. ["Individual Tree Detection in Large-Scale Urban Environments using High-Resolution Multispectral Imagery."](https://doi.org/10.48550/arXiv.2208.10607)  arXiv:2208.10606 [cs], Oct. 2022.
+
+# README_original:
 ## Urban Tree Detection ##
 
 This repository provides code for training and evaluating a convolutional neural network (CNN) to detect tree in urban environments with aerial imagery.   The CNN takes multispectral imagery as input and outputs a confidence map indicating the locations of trees. The individual tree locations are found by local peak finding. In our study site in Southern California, we determined that, using our trained model, 73.6% of the detected trees matched to actual trees, and 73.3% of the trees in the study area were detected.
